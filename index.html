@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nipuni Hansika Wijesinghe | Human-Robot Interaction Researcher</title>
+<meta name="description" content="Nipuni Hansika Wijesinghe, PhD candidate in Human-Robot Interaction, University of Canberra.">
+<style>
+  :root {
+    --teal-dark: #0c2b2b;
+    --teal: #103838;
+    --teal-light: #1c4f4f;
+    --gold: #d8b04c;
+    --cream: #f3efe6;
+    --ink: #e9e5da;
+    --muted: #a9bcb9;
+    --display: "Georgia", "Iowan Old Style", serif;
+    --body: "Helvetica Neue", Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--teal-dark);
+    color: var(--ink);
+    font-family: var(--body);
+    line-height: 1.6;
+  }
+
+  a { color: var(--gold); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  header.hero {
+    padding: 90px 0 60px;
+    border-bottom: 1px solid var(--teal-light);
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 18px;
+  }
+
+  h1.name {
+    font-family: var(--display);
+    font-size: 48px;
+    margin: 0 0 6px;
+    color: var(--cream);
+    font-weight: 500;
+  }
+
+  .tagline {
+    font-size: 19px;
+    color: var(--muted);
+    margin-bottom: 28px;
+  }
+
+  .metaphor {
+    font-family: var(--display);
+    font-style: italic;
+    font-size: 18px;
+    color: var(--gold);
+    border-left: 2px solid var(--gold);
+    padding-left: 16px;
+    margin-bottom: 30px;
+  }
+
+  .links a {
+    margin-right: 18px;
+    font-size: 15px;
+  }
+
+  section {
+    padding: 56px 0;
+    border-bottom: 1px solid var(--teal-light);
+  }
+
+  section:last-of-type { border-bottom: none; }
+
+  h2.section-title {
+    font-family: var(--display);
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 0 0 26px;
+  }
+
+  p { color: var(--ink); max-width: 700px; }
+
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 10px;
+  }
+
+  .pillar {
+    background: var(--teal);
+    border: 1px solid var(--teal-light);
+    padding: 22px 18px;
+    border-radius: 4px;
+  }
+
+  .pillar h3 {
+    font-family: var(--display);
+    font-size: 17px;
+    margin: 0 0 10px;
+    color: var(--cream);
+  }
+
+  .pillar p { font-size: 14px; color: var(--muted); margin: 0; }
+
+  .entry {
+    margin-bottom: 30px;
+  }
+
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .entry h3 {
+    font-family: var(--display);
+    font-size: 18px;
+    color: var(--cream);
+    margin: 0;
+  }
+
+  .entry .org { color: var(--gold); font-size: 14px; }
+  .entry .date { font-size: 13px; color: var(--muted); white-space: nowrap; }
+  .entry .desc { font-size: 15px; color: var(--muted); margin-top: 6px; }
+
+  ul.plain { padding-left: 20px; margin: 8px 0 0; }
+  ul.plain li { color: var(--muted); font-size: 15px; margin-bottom: 6px; }
+
+  .pub {
+    font-size: 15px;
+    color: var(--muted);
+    margin-bottom: 16px;
+    padding-left: 18px;
+    border-left: 2px solid var(--teal-light);
+  }
+  .pub .venue { color: var(--gold); font-style: italic; }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 18px;
+    margin-top: 6px;
+  }
+  .skills-grid h4 {
+    font-family: var(--display);
+    font-size: 14px;
+    color: var(--cream);
+    margin: 0 0 8px;
+  }
+  .skills-grid p { font-size: 14px; color: var(--muted); margin: 0; }
+
+  footer {
+    padding: 50px 0 70px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  footer a { margin: 0 10px; }
+
+  @media (max-width: 640px) {
+    h1.name { font-size: 34px; }
+    .pillars { grid-template-columns: 1fr; }
+    header.hero { padding: 60px 0 40px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Human-Robot Interaction &middot; Social Robotics</div>
+    <h1 class="name">Nipuni Hansika Wijesinghe</h1>
+    <div class="tagline">PhD Candidate, Collaborative Robotics Lab, University of Canberra</div>
+    <div class="metaphor">"A dimmer switch, not an on/off switch" for social presence in robots.</div>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/nipuni-wijeinghe" target="_blank">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=nkmKtdkAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="mailto:Nipuni.Wijesinghee@canberra.edu.au">Email</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Profile</h2>
+    <p>I am a PhD candidate in Human-Robot Interaction at the University of Canberra, working within the Collaborative Robotics Lab under Prof. Damith Herath, Dr. Maleen Jayasuriya, and A/Prof. Janie Busby Grant. My research, Social Presence Modulation, explores how robots can read their social environment in real time and dynamically adjust how present or engaged they appear, moving away from a fixed, one-size-fits-all level of robot presence. Before starting my PhD, I worked as a Business Analyst at Axiata Digital Labs, and I currently combine my research with sessional teaching and lab coordination at the university.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Research Pillars</h2>
+    <div class="pillars">
+      <div class="pillar">
+        <h3>Context Sensing</h3>
+        <p>An audio-centric context identification module combining ambient sound, keyword, and sentiment analysis to let a robot understand the social situation it is in.</p>
+      </div>
+      <div class="pillar">
+        <h3>Attention Regulation</h3>
+        <p>A reinforcement-learning approach to gaze behaviour, validated through human studies, supporting three presence goals: grab attention, fade into the background, or maintain moderate engagement.</p>
+      </div>
+      <div class="pillar">
+        <h3>Social Presence Modulation</h3>
+        <p>A presence control algorithm and a markerless teleoperation and imitation learning pipeline for transferring natural social behaviours from humans to robots.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>CRL Administrative, Communications and Marketing Coordinator</h3>
+        <span class="date">Apr 2026 - Present</span>
+      </div>
+      <div class="org">University of Canberra</div>
+      <div class="desc">Coordinate internal and external lab communications, manage the CRL's social media and website, and support outreach through content covering research milestones and partnerships. Provide project coordination support for industry-partnered initiatives and liaise with external collaborators.</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Sessional Academic</h3>
+        <span class="date">Apr 2024 - Present</span>
+      </div>
+      <div class="org">University of Canberra</div>
+      <div class="desc">Tutorial delivery, marking, and lecture material development across Technology Innovation and Entrepreneurship, Technology Engineering and Management, Introduction to Information Technology, Discrete Mathematics, and Visual and Interactive Computing.</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>PhD Candidate, Human-Robot Interaction</h3>
+        <span class="date">Mar 2024 - Present</span>
+      </div>
+      <div class="org">University of Canberra</div>
+      <div class="desc">Developing self-modulating robotic systems that perceive context and dynamically adjust their social presence in human-robot interactions.</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Senior Business Analyst</h3>
+        <span class="date">Apr 2023 - Feb 2024</span>
+      </div>
+      <div class="org">Axiata Digital Labs</div>
+      <div class="desc">Led requirements and solution design across multiple client systems, trained BA interns, and served as scrum master and stakeholder liaison.</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Business Analyst</h3>
+        <span class="date">Feb 2021 - Apr 2023</span>
+      </div>
+      <div class="org">Axiata Digital Labs</div>
+      <div class="desc">Delivered requirement gathering, FRS documentation, and stakeholder management across major distribution, payment, and voucher management platforms.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Education</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Doctor of Philosophy, Human-Robot Interaction</h3>
+        <span class="date">Mar 2024 - Present</span>
+      </div>
+      <div class="org">University of Canberra, Australia</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Bachelor of Science (Hons), Computer Science</h3>
+        <span class="date">Dec 2016 - Dec 2020</span>
+      </div>
+      <div class="org">University of Sri Jayewardenepura, Sri Lanka</div>
+      <div class="desc">First class division, GPA 3.70. Major in Computer Science with minors in Mathematics and Statistics. Honours research on driver drowsiness detection using machine learning and image processing.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Publications</h2>
+
+    <div class="pub">Nipuni H Wijesinghe, Yue Peng, Sharni Konrad, Maleen Jayasuriya, Janie Busby Grant, and Damith Herath. Reframing social presence for human robot interaction. <span class="venue">2025 ACM/IEEE International Conference on Human-Robot Interaction (HRI)</span>, pages 1716-1721, 2025.</div>
+
+    <div class="pub">Nipuni H Wijesinghe, Maleen Jayasuriya, Janie Busby Grant, and Damith Herath. Real-time social presence modulation of embodied AI-based robots: an audio-centric approach. <span class="venue">2025 IEEE 21st International Conference on Automation Science and Engineering (CASE)</span>, 2025.</div>
+
+    <div class="pub">Nipuni H Wijesinghe, David Hinwood, Maleen Jayasuriya, Janie Busby Grant, and Damith Herath. Adaptive gaze modulation in social robots: a reinforcement learning approach to attention regulation. <span class="venue">2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span>, 2025.</div>
+
+    <div class="pub">Damith Herath, Amy LaViers, Sitao Zhang, Nipuni Hansika Wijesinghe, Sharni Konrad, Janie Busby Grant, James Z Wang, et al. The body in affective robotics: a survey and conceptual positioning using the performing arts as a scaffold for understanding bodily expressed emotion. <span class="venue">IEEE Transactions on Affective Computing</span>, 2025.</div>
+
+    <div class="pub">Sharni Konrad, Nipuni Wijesinghe, Eileen Roesler, and Janie Busby Grant. From affinity to adoption: exploring affinity with technology, social presence, and intended future robot use. <span class="venue">Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction</span>, pages 624-628, 2026.</div>
+
+    <div class="pub">Nipuni H Wijesinghe and MDR Perera. An affordable driver fatigue detection system in real time. <span class="venue">Journal of Information and Communication Technology (JICT)</span>, 1(2), 2023.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div>
+        <h4>Languages</h4>
+        <p>ROS, ROS2, Python, Java, C</p>
+      </div>
+      <div>
+        <h4>ML &amp; Robotics</h4>
+        <p>TensorFlow, PyTorch, Keras, Scikit-learn, DeepSpeech, MuJoCo, NAOqi, RViz2</p>
+      </div>
+      <div>
+        <h4>Data &amp; Web</h4>
+        <p>Pandas, NumPy, Streamlit, HTML, CSS, JavaScript, MySQL</p>
+      </div>
+      <div>
+        <h4>Hardware</h4>
+        <p>ZED 2i stereo camera, SoftBank Pepper, NAO, Choregraphe Suite</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="links">
+      <a href="https://www.linkedin.com/in/nipuni-wijeinghe" target="_blank">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=nkmKtdkAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="mailto:Nipuni.Wijesinghee@canberra.edu.au">Email</a>
+    </div>
+    <div style="margin-top: 14px;">Nipuni Hansika Wijesinghe &middot; Canberra, Australia</div>
+  </div>
+</footer>
+
+</body>
+</html>
