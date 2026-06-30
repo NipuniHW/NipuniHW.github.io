@@ -1,5 +1,5 @@
 :root {
-  --purple-dark: #4a2a73;
+  /* --purple: #4a2a73; */
   --purple: #6b3fa0;
   --purple-light: #9b6fc9;
   --lilac: #efe9f7;
@@ -27,7 +27,8 @@ a:hover { text-decoration: underline; }
 
 /* Nav */
 nav.site-nav {
-  background: var(--purple-dark);
+  /* background: var(--purple); */
+   background: var(--purple);
   padding: 18px 0;
 }
 
@@ -97,7 +98,8 @@ h1.name {
   font-family: var(--display);
   font-size: 42px;
   margin: 0 0 6px;
-  color: var(--purple-dark);
+  color: var(--purple);
+  /* color: var(--purple); */
   font-weight: 500;
 }
 
@@ -128,7 +130,8 @@ header.page-header {
 
 header.page-header h1 {
   font-family: var(--display);
-  color: var(--purple-dark);
+  color: var(--purple);
+  /* color: var(--purple); */
   font-size: 34px;
   margin: 0 0 8px;
 }
@@ -176,7 +179,8 @@ p { color: var(--ink); max-width: 700px; }
   font-family: var(--display);
   font-size: 17px;
   margin: 0 0 10px;
-  color: var(--purple-dark);
+  color: var(--purple);
+  /* color: var(--purple); */
 }
 
 .pillar p { font-size: 14px; color: var(--muted); margin: 0; }
@@ -194,7 +198,7 @@ p { color: var(--ink); max-width: 700px; }
 .entry h3 {
   font-family: var(--display);
   font-size: 18px;
-  color: var(--purple-dark);
+  color: var(--purple);
   margin: 0;
 }
 
@@ -223,7 +227,7 @@ ul.plain li { color: var(--muted); font-size: 15px; margin-bottom: 6px; }
 .skills-grid h4 {
   font-family: var(--display);
   font-size: 14px;
-  color: var(--purple-dark);
+  color: var(--purple);
   margin: 0 0 8px;
 }
 .skills-grid p { font-size: 14px; color: var(--muted); margin: 0; }
@@ -238,7 +242,7 @@ ul.plain li { color: var(--muted); font-size: 15px; margin-bottom: 6px; }
 
 .project-card h3 {
   font-family: var(--display);
-  color: var(--purple-dark);
+  color: var(--purple);
   margin: 0 0 4px;
   font-size: 18px;
 }
@@ -270,7 +274,7 @@ ul.plain li { color: var(--muted); font-size: 15px; margin-bottom: 6px; }
   font-size: 15px;
 }
 
-.btn:hover { background: var(--purple-dark); text-decoration: none; }
+.btn:hover { background: var(--purple); text-decoration: none; }
 
 .btn.outline {
   background: transparent;
